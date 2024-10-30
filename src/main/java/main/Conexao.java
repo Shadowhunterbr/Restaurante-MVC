@@ -12,7 +12,7 @@ public class Conexao {
 		
 		try {
 			Class.forName("com.mysql.cj.jdbc.Driver");
-			con = DriverManager.getConnection("jdbc:mysql://localhost/restaurante?useSSL=false","root","Demolidor@4253");
+			con = DriverManager.getConnection("jdbc:mysql://localhost/restaurante?useSSL=false","root","*****");
 			System.out.println("O BANCO DE DADOS FOI CONECTADO COM SUCESSO!!!!");
 		} catch (SQLException | ClassNotFoundException e) {
 			System.err.println("NÃO FOI POSSÍVEL CONECTAR AO BANCO DE DADOS!!!!");
